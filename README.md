@@ -1,51 +1,51 @@
 |   .gitignore    
-|   app.py
-|   Dockerfile
-|   predict.py
-|   README.md
-|   requirements.txt
-|   requirements_local.txt
-|   temp.txt
-|   
-+---data_test
-|       dogs.JPEG
-|       dogs.JPEG_mask
+|   app.py   
+|   Dockerfile  
+|   predict.py   
+|   README.md   
+|   requirements.txt   
+|   requirements_local.txt   
+|   temp.txt   
+|      
++---data_test   
+|       dogs.JPEG     
+|       dogs.JPEG_mask   
+|          
++---eda   
+|       dogs.ipynb   
+|       README.md   
 |       
-+---eda
-|       dogs.ipynb
-|       README.md
-|       
-+---models
-|       best_resnet.pth
-|       dogs_best.pth
-|       dogs_segmented_best_881.pth
-|       
-+---scripts
-|       get_data.sh
-|       
-\---src
-    |   constants.py
-    |   __init__.py
-    |   
-    +---datasets
-    |       datasets.py
++---models   
+|       best_resnet.pth   
+|       dogs_best.pth   
+|       dogs_segmented_best_881.pth   
+|         
++---scripts   
+|       get_data.sh   
+|          
+\---src  
+    |   constants.py  
+    |   __init__.py  
+    |     
+    +---datasets  
+    |       datasets.py  
+    |         
+    +---model  
+    |       constants.py  
+    |       model.py  
+    |       __init__.py  
+    |         
+    +---predict  
+    |       main.py  
+    |       predict.py  
+    |       __init__.py  
     |       
-    +---model
-    |       constants.py
-    |       model.py
-    |       __init__.py
-    |       
-    +---predict
-    |       main.py
-    |       predict.py
-    |       __init__.py
-    |       
-    \---transforms
-            constants.py
-            transforms.py
-            __init__.py
+    \---transforms  
+            constants.py  
+            transforms.py  
+            __init__.py  
 
-
+   
 In order to Run the flask application with dogs
 Assuming that current directory is root of git repository you should make next steps
 1) build the docker image:
