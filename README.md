@@ -1,3 +1,4 @@
+```
 |   .gitignore
 |   app.py
 |   Dockerfile
@@ -45,6 +46,7 @@
             transforms.py
             __init__.py
 
+```
 
 In order to Run the flask application with dogs
 Assuming that current directory is root of git repository you should make next steps
