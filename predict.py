@@ -9,6 +9,7 @@ from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from src.model import ModelPredict
 from src.transforms import val_transforms
 from src.constants import NAMES
+import torch
 
 
 
@@ -94,5 +95,4 @@ if __name__ == "__main__":
     model_to_predict.load_model("best_resnet.pth")
     prediction = model_to_predict.predict(arguments.image_name)
 
-    print(prediction)
-
+    
