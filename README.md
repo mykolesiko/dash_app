@@ -81,3 +81,10 @@ Assuming that current directory is root of git repository you should make next s
     python predict.py --data_dir .\data_test --model_dir .\models --image_name dogs.JPEG
 ```
 
+Link to notebook
+https://colab.research.google.com/drive/1mpQiKNHI-rPlS6iytC_t0h5W8K1v0DX5?usp=sharing#scrollTo=A-X1treQNqTB
+
+
+Link to segmented and clipped data:
+https://drive.google.com/drive/folders/1z1-wInSImW_UBQjQPRANjL-sfICnwDX4?usp=sharing
+
