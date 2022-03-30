@@ -82,7 +82,7 @@ Assuming that current directory is root of git repository you should make next s
 ```
 
 Link to notebook
-https://colab.research.google.com/drive/1mpQiKNHI-rPlS6iytC_t0h5W8K1v0DX5?usp=sharing
+https://colab.research.google.com/drive/1mpQiKNHI-rPlS6iytC_t0h5W8K1v0DX5?usp=sharing#scrollTo=A-X1treQNqTB
 
 
 Link to segmented and clipped data:
